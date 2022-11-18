@@ -109,3 +109,30 @@ footer .social img {
 footer .social img:hover {
     transform: scale(1.2);
 }
+
+/*DON'T CHANGE ANYTHING AFTER THIS*/
+
+@media screen and (max-width: 900px) {
+    img {
+        width: 100%;
+        clear: both;
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #background {
+        display: none;
+    }
+
+    footer {
+        margin-top: 25px;
+    }
+}

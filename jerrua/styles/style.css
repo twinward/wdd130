@@ -171,3 +171,43 @@ main p {
 /* --- NPCS --- */
 
 
+/* --- MOBILE SCREENS --- */
+
+@media screen and (max-width: 900px) {
+    #home-banner, #history-banner, #npcs-banner, .home-grid {
+        display: block;
+        height: auto;
+    }
+    .banner-img {
+        max-width: 100%;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        text-align: center;
+        padding: 10px;
+    }
+    #home-banner, #history-banner, #npcs-banner {
+        margin-top: 0;
+    }
+    .banner-msg {
+        margin-top: 0;
+    }
+    .banner-msg h4 {
+        display: none;
+        font-size: 25px;
+    }
+    .card-img { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+
+    footer {
+        margin-top: 25px;
+    }
+}

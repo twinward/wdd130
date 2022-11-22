@@ -154,7 +154,15 @@ main h2 {
     grid-column: 8/10;
     grid-row: 5/7;
 }
-
+main h1, main h2, main h3 {
+    font-family: Righteous, Verdana, sans-serif;
+    color: #610c04;
+}
+main p {
+    font-family: PT Sans, Verdana, sans-serif;
+    color: black;
+    font-size: 18px;
+}
 
 /* --- HISTORY --- */
 

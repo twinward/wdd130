@@ -195,19 +195,19 @@ main p {
     .banner-msg {
         margin-top: 0;
     }
-    .banner-msg h4 {
-        display: none;
-        font-size: 25px;
-    }
     .card-img { 
-        margin: 50px auto;
+        margin: 5px;
+        margin-top: 60px;
         width: 60%;
     }
     #background {
         display: none;
     }
-
+    main, .banner-msg {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     footer {
-        margin-top: 25px;
+        margin-top: 60px;
     }
 }

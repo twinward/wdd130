@@ -6,6 +6,7 @@ body {
     padding: 0;
     background-color: #f0e3b0;
     font-family:  "PT Sans", Verdana, sans-serif;
+    text-align: justify;
 }
 
 /* --- HEADER --- */
@@ -165,8 +166,25 @@ main p {
 }
 
 /* --- HISTORY --- */
-
-
+.astrid {
+    width: 30%;
+    float: right;
+    margin-left: 10px;
+}
+.ascodel {
+    width: 40%;
+    float: right;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+/* .ascodel {
+    float: right;
+    height: 100%;
+    margin-left: 15px;
+    display: flex;
+    align-items: flex-end;
+    shape-outside: inset(calc(100% - 100px) 0 0);
+  } */
 
 /* --- NPCS --- */
 

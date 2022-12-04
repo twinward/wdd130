@@ -5,7 +5,7 @@ body {
     margin: 0 auto;
     padding: 0;
     background-color: #f0e3b0;
-    font-family:  PT Sans, Verdana, sans-serif;
+    font-family:  "PT Sans", Verdana, sans-serif;
 }
 
 /* --- HEADER --- */
@@ -159,7 +159,7 @@ main h1, main h2, main h3 {
     color: #610c04;
 }
 main p {
-    font-family: PT Sans, Verdana, sans-serif;
+    font-family: "PT Sans", Verdana, sans-serif;
     color: black;
     font-size: 18px;
 }

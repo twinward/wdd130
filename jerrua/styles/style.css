@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Righteous&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Righteous&display=swap');
 
 body {
     max-width: 1024px;
@@ -197,7 +197,7 @@ main p {
 /* --- MOBILE SCREENS --- */
 
 @media screen and (max-width: 900px) {
-    #home-banner, #history-banner, #npcs-banner, .home-grid, {
+    #home-banner, #history-banner, #npcs-banner, .home-grid {
         display: block;
         height: auto;
     }

@@ -197,7 +197,7 @@ main p {
 /* --- MOBILE SCREENS --- */
 
 @media screen and (max-width: 900px) {
-    #home-banner, #history-banner, #npcs-banner, .home-grid {
+    #home-banner, #history-banner, #npcs-banner, .home-grid, {
         display: block;
         height: auto;
     }
@@ -233,5 +233,10 @@ main p {
     }
     footer {
         margin-top: 60px;
+    }
+    .char-img {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 }

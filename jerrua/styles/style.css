@@ -188,8 +188,9 @@ main p {
 
 /* --- NPCS --- */
 .char-img {
-    width: 40%;
+    width: 49%;
     float: right;
+    margin-top: 20px;
     margin-left: 10px;
 }
 

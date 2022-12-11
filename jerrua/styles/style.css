@@ -187,7 +187,11 @@ main p {
   } */
 
 /* --- NPCS --- */
-
+.char-img {
+    width: 40%;
+    float: right;
+    margin-left: 10px;
+}
 
 /* --- MOBILE SCREENS --- */
 
@@ -212,6 +216,7 @@ main p {
     }
     .banner-msg {
         margin-top: 0;
+        color: #610c04;
     }
     .card-img { 
         margin: 5px;
